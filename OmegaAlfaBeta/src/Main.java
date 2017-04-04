@@ -6,6 +6,7 @@ public class Main {
 		System.out.println("jajaxd va a cambiar porque yo lo digo :P");
 		System.out.println("jajaxd va a cambiar porque yo lo digo y punto :P");
 		System.out.println("jajaxd va a cambiar porque yo lo digo y punto yaaaaaaaaaaaaaaa :P");
+		System.out.println("jajaxd no va a cambiar xk a guille no le funciona el pc");
 	}
 
 }
