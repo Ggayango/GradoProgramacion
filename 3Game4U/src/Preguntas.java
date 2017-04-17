@@ -26,4 +26,5 @@ class Preguntas { // recuerden que el nombre de la clase es en mayúscula
 		} else
 			System.out.println("Lo siento ha perdido!");
 	}
+	
 }
