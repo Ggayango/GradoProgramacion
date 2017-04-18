@@ -26,6 +26,10 @@ public class NumerosAleatorios {
 		     
 		      if(valor==numero){
 		       System.out.println("Felicitaciones, GANASTES con "+contador+" intentos");
+		       
+		       
+		       
+		       
 		       ganar=true;
 		       
 		      }else{
