@@ -25,7 +25,7 @@ public class NumerosAleatorios {
 		     valor = in.nextInt();
 		     
 		      if(valor==numero){
-		       System.out.println("Felicitaciones, GANASTES con "+contador+" intentos");
+		       System.out.println("Felicidades, GANASTES con "+contador+" intentos");
 		       
 		       
 		       
