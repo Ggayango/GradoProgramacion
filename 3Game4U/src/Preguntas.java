@@ -15,7 +15,7 @@ class Preguntas { // recuerden que el nombre de la clase es en mayúscula
 			System.out.println("¿Java es un lenguaje de programación?");
 			res = lector.next().charAt(0); // Con esto leemos la respuesta
 			if (res == 's') {
-				System.out.println("¿Microsoft Word es un programa de computadora?");
+				System.out.println("¿Microsoft Word es un programa de pc?");
 				res = lector.next().charAt(0); // Con esto leemos la respuesta
 				if (res == 's')
 					System.out.println("Felicidades has ganado!");
