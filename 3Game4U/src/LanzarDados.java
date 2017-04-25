@@ -9,7 +9,6 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * <p>Creamos los metodos Scaner el cual lee una entrada por teclado y<br> 
 	 * el metodo Ramdom el cual genera numero aleatorios</p>
 	 * 
-	 * @author @guille
 	 */
 
 	Scanner entrada = new Scanner(System.in);
@@ -21,7 +20,6 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * <p>Este meodo se encarga de pedir el numero de veces que quieres<br>
 	 * lanzar el dado y los añade a la array</p>
 	 * 
-	 * @author @guille
 	 */
 
 	public void recibir() { // Abre metodo Recibir
@@ -36,7 +34,6 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * <p>Este metodo se encarga de realizar el lanzamiento de los dados<br>
 	 * mediante el metodo Random que creamos arriba</p>
 	 * 
-	 * @author @guille
 	 */
 
 	public void lanzar() { // Abre metodo Lanzar
@@ -60,7 +57,6 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * <p>Este metodo se encarga de recorrer el array mostrando los<br>
 	 * numeros resultantes del metodo Lanzar</p>
 	 * 
-	 * @author @guille
 	 */
 
 	public void contar() { // Abre metodo Contar
@@ -80,9 +76,6 @@ public class LanzarDados { // Abre clase LanzarDados
 	/**
 	 * <p>Este metodo Imprime el resultado dependiento de<br>
 	 * la cantidad de veces que quiseramos lanzar el dado</p>
-	 * 
-	 * 
-	 * @author @guille
 	 */
 
 	public void imprimir(int B[]) { // Abre metodo Imprimir
