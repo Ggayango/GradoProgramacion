@@ -97,6 +97,7 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * <p>Este metodo Imprime el resultado dependiento de<br>
 	 * la cantidad de veces que quiseramos lanzar el dado</p>
 	 * 
+	 * 
 	 * @author @guille
 	 */
 
