@@ -3,14 +3,25 @@ import java.util.Random;
 
 /**
  * <h2>Esto es el inicio de la clase Lanzar dados</h2>
- * 
+ * <p>La clase lanzar dados lanza dos dados aleatoriamente</p>
  * @author Guille
  */
 public class LanzarDados { // Abre clase LanzarDados
-	
+	/**
+	 * <p>La variable <b>entrada</b> es creada para introducir una cantidad por teclado</p>
+	 */
 	Scanner entrada = new Scanner(System.in);
+	/**
+	 * <p>La variable <b>aleatorio</b> es creada para la generacion denumeros aleatorios</p>
+	 */
 	Random aleatorio = new Random();
+	/**
+	 * <p>La variable <b>numero</b> en ella se guardan los numeros aleatorios</p>
+	 */
 	private int numero;
+	/**
+	 * <p><b>arreglo</b> es el nombre asignado a una array</p>
+	 */
 	int arreglo[];
 	
 	/**
@@ -18,6 +29,8 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * lanzar el dado y los añade a la array</p>
 	 * 
 	 * @author Guille
+	 * @param numero se le asiga un numero por teclado
+	 * @param arreglo crea un array de enteros a la que se asigan numeros
 	 */
 	public void recibir() { // Abre metodo Recibir
 		System.out.print("\nPor favor introduzca el numero de veces que se lanzaran ");
@@ -32,6 +45,8 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * mediante el metodo Random que creamos arriba</p>
 	 * 
 	 * @author Guille
+	 * @param numero1 crea una variable
+	 * @param numero2 crea una variable
 	 */
 	public void lanzar() { // Abre metodo Lanzar
 		int numero1;
@@ -55,19 +70,20 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * numeros resultantes del metodo Lanzar</p>
 	 * 
 	 * @author Guille
+	 * @param contador crea un array de enteros
 	 */
 
 	public void contar() { // Abre metodo Contar
-		int Contador[] = new int[13];
+		int contador[] = new int[5];
 
 		for (int j = 0; j < arreglo.length; j++) { // Abre for
-			for (int k = 0; k < Contador.length; k++) { // Abre for anidado
+			for (int k = 0; k < contador.length; k++) { // Abre for anidado
 				if (arreglo[j] == k)
-					Contador[k]++;
+					contador[k]++;
 			} // Cierra for anidado
 		} // Cierra for
 
-		imprimir(Contador);
+		imprimir(contador);
 
 	} // Cierra metodo Contar
 	
@@ -76,6 +92,7 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * la cantidad de veces que quiseramos lanzar el dado</p>
 	 * 
 	 * @author Guille
+	 * @param B crea un array de enteros
 	 */
 
 	public void imprimir(int B[]) { // Abre metodo Imprimir
