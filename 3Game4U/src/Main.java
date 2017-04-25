@@ -5,7 +5,7 @@ public class Main {
 		LanzarDados miDados = new LanzarDados();
 		  
 		 System.out.println("Este programa simula el lanzamiento de dos dados.");
-		 miDados.Recibir();
+		 miDados.recibir();
 		 
 		 NumerosAleatorios miNumero = new NumerosAleatorios();
 		 

@@ -16,10 +16,6 @@ public class LanzarDados { // Abre clase LanzarDados
 	Random aleatorio = new Random();
 	private int numero;
 	int Arreglo[];
-
-	/////////////////////////////////////////////
-	// Metodo Recibir
-	/////////////////////////////////////////////
 	
 	/**
 	 * <p>Este meodo se encarga de pedir el numero de veces que quieres<br>
@@ -28,17 +24,13 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * @author @guille
 	 */
 
-	public void Recibir() { // Abre metodo Recibir
+	public void recibir() { // Abre metodo Recibir
 		System.out.print("\nPor favor introduzca el numero de veces que se lanzaran ");
 		System.out.print(" los dados\n");
 		numero = entrada.nextInt();
 		Arreglo = new int[numero];
-		Lanzar();
+		lanzar();
 	} // cierra metodo Recibir
-
-	/////////////////////////////////////////////
-	// Metodo Lanzar
-	/////////////////////////////////////////////
 	
 	/**
 	 * <p>Este metodo se encarga de realizar el lanzamiento de los dados<br>
@@ -47,7 +39,7 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * @author @guille
 	 */
 
-	public void Lanzar() { // Abre metodo Lanzar
+	public void lanzar() { // Abre metodo Lanzar
 		int numero1;
 		int numero2;
 
@@ -61,12 +53,8 @@ public class LanzarDados { // Abre clase LanzarDados
 			Arreglo[i] = numero1 + numero2;
 		} // Cierra for
 
-		Contar();
+		contar();
 	} // Cierra metodo Lanzar
-
-	/////////////////////////////////////////////
-	// Metodo Contar
-	/////////////////////////////////////////////
 	
 	/**
 	 * <p>Este metodo se encarga de recorrer el array mostrando los<br>
@@ -75,7 +63,7 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * @author @guille
 	 */
 
-	public void Contar() { // Abre metodo Contar
+	public void contar() { // Abre metodo Contar
 		int Contador[] = new int[13];
 
 		for (int j = 0; j < Arreglo.length; j++) { // Abre for
@@ -85,13 +73,9 @@ public class LanzarDados { // Abre clase LanzarDados
 			} // Cierra for anidado
 		} // Cierra for
 
-		Imprimir(Contador);
+		imprimir(Contador);
 
 	} // Cierra metodo Contar
-
-	/////////////////////////////////////////////
-	// Metodo Imprimir
-	/////////////////////////////////////////////
 	
 	/**
 	 * <p>Este metodo Imprime el resultado dependiento de<br>
@@ -101,7 +85,7 @@ public class LanzarDados { // Abre clase LanzarDados
 	 * @author @guille
 	 */
 
-	public void Imprimir(int B[]) { // Abre metodo Imprimir
+	public void imprimir(int B[]) { // Abre metodo Imprimir
 		for (int m = 0; m < B.length; m++) { // Abre for
 			System.out.printf("\n%d lanzamientos sumaron %d\n", B[m], m);
 		} // Cierra for
