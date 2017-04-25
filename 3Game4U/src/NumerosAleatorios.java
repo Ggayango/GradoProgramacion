@@ -8,6 +8,17 @@ public class NumerosAleatorios {
 	int contador=0;
 	boolean ganar=false;
 	
+	/**
+	 * <ul>
+	 * 		<li><b>Método aleatorio</b></li>
+	 * </ul>
+	 * 
+	 * Este método creo un número random del 1 al 100 y con un do while se irá repitiendo
+	 * hasta que el usuario acierte el número en la consola.  
+	 * 
+	 * @author aaridom
+	 * @version <b>1.0</b>
+	 */
 	public void aleatorio() {
 		System.out.println("--------------------------------------");
 		System.out.println("|         Bienvenido al juego        |");
@@ -15,13 +26,13 @@ public class NumerosAleatorios {
 		
 		numero=1+(int)(Math.random()*100);
 		  System.out.println("En estos momentos se ha generado un numero comprendido entre-\n"+
-		                     "1 y 100, que usted debe adivinar");
+		                     "1 y 100, que debes adivinar");
 		  
 		  System.out.println("--------------------------------------");
 		  
 		   do{
 		     contador++;
-		     System.out.print("-Digite el numero ");
+		     System.out.print("-Escribe el numero ");
 		     valor = in.nextInt();
 		     
 		      if(valor==numero){
