@@ -6,6 +6,7 @@ import java.util.Scanner; //Este es el paquete de lectura
  * <h2>	Juego preguntas </h2>
  * En esta clase presentamos el juego preguntas, donde se realizarán preguntas y se responderá con si o no
  * tras leer las respuestas todas juntas se motrará un mensaje si has ganado o has perdido.
+ * @author carlospc
  */
 public class Preguntas {
 	
