@@ -13,7 +13,7 @@ public class Preguntas {
 	// Declaramos algunas variables
 	public char res; // esta nos servirá para guardar la respuesta
 	
-		public void Preguntas() {
+		public void Preguntas1() {
 
 
 		Scanner lector = new Scanner(System.in);

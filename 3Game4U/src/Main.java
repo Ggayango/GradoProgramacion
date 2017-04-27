@@ -18,5 +18,14 @@ public class Main {
 		 
 		 System.out.println("Este juego se trata de adivinar el numero aleatorio");
 		 miNumero.aleatorio();
+		 
+			/**
+			* <p>Instanciamos el metodo de clase Preguntas</p>
+			* @author carlospc
+			*/	
+		 Preguntas miPregunta = new Preguntas();
+		 System.out.println("Este juego se trata de adivinar unas preguntas sobre informática");
+		 miPregunta.Preguntas1();
+		  
 	}		 
 } 
