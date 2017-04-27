@@ -7,7 +7,8 @@ import java.util.Scanner;
  */
 public class NumerosAleatorios {
 	/**
-	 * Lista de atributos incluyendo el Scanner 
+	 * Lista de atributos incluyendo el Scanner
+	 * @author angad 
 	 */
 	Scanner in = new Scanner(System.in);
 	private int numero;
@@ -22,6 +23,7 @@ public class NumerosAleatorios {
 	 * 
 	 * Este método creo un número random del 1 al 100 y con un do while se irá repitiendo
 	 * hasta que el usuario acierte el número en la consola.  
+	 * @author angad
 	 */
 	public void aleatorio() {
 		System.out.println("--------------------------------------");
@@ -30,6 +32,7 @@ public class NumerosAleatorios {
 		
 		/**
 		 * Generación de números aleatorios del 1 al 100
+		 * @author angad
 		 */
 		numero=1+(int)(Math.random()*100);
 		  System.out.println("En estos momentos se ha generado un numero comprendido entre-\n"+
@@ -38,6 +41,7 @@ public class NumerosAleatorios {
 		  System.out.println("--------------------------------------");
 		  /**
 		   * Bucle por el cual el usuario tendrá que poner los números para adivinar el correcto.
+		   * @author angad
 		   */
 		   do{
 		     contador++;

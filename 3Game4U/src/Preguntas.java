@@ -25,6 +25,7 @@ public class Preguntas {
 		if (res == 's') { // Verificamos que la respuesta sea si y pasamos a lo siguiente
 			/**
 			 * En este método comprobamos si la respuesta es <b>correcta</b>.
+			 * @author carlospc
 			 */
 			System.out.println("¿Java es un lenguaje de programación?");
 		
@@ -34,6 +35,7 @@ public class Preguntas {
 				
 				/**
 				 * En este método comprobamos si la respuesta es <b>incorrecta</b>.
+				 * @author carlospc
 				 */
 				res = lector.next().charAt(0); // Con esto leemos la respuesta
 				if (res == 's')
